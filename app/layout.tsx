@@ -1,13 +1,9 @@
 export const metadata = {
-  title: "Clarity Reflection Bot",
-  description: "A daily journaling assistant by Kaya Liwanag.",
+  title: 'Clarity Reflection Bot',
+  description: 'Daily journaling with care.',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>
