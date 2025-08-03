@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -29,6 +30,17 @@ export default function RootLayout({
       >
         {children}
       </body>
+=======
+export const metadata = {
+  title: 'Clarity Reflection Bot',
+  description: 'Daily journaling with care.',
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+>>>>>>> e5c3fa5a61781331fc9773918d300f7f384c0beb
     </html>
   );
 }

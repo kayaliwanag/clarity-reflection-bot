@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from "next/image";
 
 export default function Home() {
@@ -99,5 +100,12 @@ export default function Home() {
         </a>
       </footer>
     </div>
+=======
+export default function Home() {
+  return (
+    <main>
+      <h1>Hello from Clarity Reflection Bot</h1>
+    </main>
+>>>>>>> e5c3fa5a61781331fc9773918d300f7f384c0beb
   );
 }
